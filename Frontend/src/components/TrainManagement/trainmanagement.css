@@ -1,0 +1,163 @@
+/* .page-container {
+  min-height: 100vh;
+  display: block;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.train-res-card {
+  position: absolute;
+  top: 15%;
+  bottom: 1%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.train-res-card1 {
+  position: absolute;
+  top: 0;
+  bottom: 45%;
+  left: 0;
+  text-align: center;
+  right: 0;
+  margin: auto;
+}
+
+.form-control input {
+  font-weight: normal;
+}
+
+.bottom-table {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.page-container1 {
+  min-height: 90vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.btn-edit,
+.btn-delete {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 75%;
+}
+
+.btn-schedule {
+  margin-top: 35%;
+  background-color: green;
+  color: white;
+}
+
+.background {
+  background-image: url('../../assets/img/trainManagementBG.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  overflow: hidden;
+}
+
+.swap-button {
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 120px;
+}
+
+.submit-button {
+  width: 400px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.ticket-res-card1 th,
+.ticket-res-card1 td {
+  border: 1px solid #dee2e6;
+}
+
+.ticket-res-card1 th,
+.ticket-res-card1 td {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.yellow-button {
+  background-color: rgb(221, 232, 25);
+  border-radius: 5px;
+  color: black;
+  margin-bottom: 4px;
+}
+.red-button {
+  background-color: rgb(232, 18, 7);
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+} */
+
+.styled-alert {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f8d7da; /* Red background color */
+  color: #721c24; /* Dark text color */
+  border: 1px solid #f5c6cb; /* Red border color */
+  padding: 10px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Box shadow */
+  z-index: 9999; /* Ensure it's on top of other content */
+}
+
+.styled-alert p {
+  margin: 0;
+}
+
+.styled-alert button {
+  background-color: #721c24; /* Red background color for the close button */
+  color: white; /* White text color for the close button */
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.styled-alert button:hover {
+  background-color: #a01924; /* Darker red background color on hover */
+}
+
+
+.swap-button {
+  margin-top: 25px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 58px;
+}

@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #9e9ea4;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .icon {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 20px;
+  }
+  .icon_header {
+    vertical-align: middle;
+    line-height: 1px;
+    font-size: 26px;
+  }
+  .icon, .icon_header {
+    margin-right: 5px;
+  }
+  
+  .close_icon {
+    color: red;
+    margin-left: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 260px 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 3fr;
+    grid-template-areas:
+      'sidebar header header header'
+      'sidebar main main main';
+    height: 100vh;
+  }
+  
+  /* Header  */
+  .header1 {
+    grid-area: header;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    box-shadow: 0 6px 7px -3px rgba(0, 0, 0, 0.35);
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  /* End Header  */
+  
+  /* Sidebar  */
+  #sidebar {
+    grid-area: sidebar;
+    height: 100%;
+    background-color: #263043;
+    overflow-y: auto;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  
+  .sidebar-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px 0px 30px;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar-title > span {
+    display: none;
+  }
+  
+  .sidebar-brand {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .sidebar-list {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .sidebar-list-item {
+    padding: 20px 20px 20px 20px;
+    font-size: 18px;
+  }
+  
+  .sidebar-list-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
+  
+  .sidebar-list-item > a {
+    text-decoration: none;
+    color: #9e9ea4;
+  }
+  
+  .sidebar-responsive {
+    display: inline !important;
+    position: absolute;
+    /*
+      we want the z-index of the sidebar higher so that
+      the charts are not showing over the sidebar 
+      on small screens
+    */
+    z-index: 12 !important;
+  }
+  
+  /* End Sidebar  */
+  
+  
+  /* Main  */  
+  .main-container {
+    grid-area: main;
+    overflow-y: auto;
+    padding: 20px 20px;
+    color: rgba(255, 255, 255, 0.95);
+  }
+  
+  .main-title {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(0, 0, 0, 0.95);
+  }
+  
+  .main-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin: 15px 0;
+  }
+  
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .card2:first-child {
+    background-color: #2962ff;
+  }
+  
+  .card2:nth-child(2) {
+    background-color: #ff6d00;
+  }
+  
+  .card2:nth-child(3) {
+    background-color: #2e7d32;
+  }
+  
+  .card2:nth-child(4) {
+    background-color: #d50000;
+  }
+  
+  .card2-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .card2-inner > .card2_icon {
+    font-size: 25px;
+  }
+  
+  .charts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 60px;
+    height: 300px;
+  }
+  
+  /* End Main  */
+  
+  
+  /* Medium <= 992px */
+    
+  @media screen and (max-width: 992px) {
+    .grid-container {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 3fr;
+      grid-template-areas:
+        'header'
+        'main';
+    }
+  
+    #sidebar {
+      display: none;
+    }
+  
+    .menu-icon {
+      display: inline;
+    }
+  
+    .sidebar-title > span {
+      display: inline;
+    }
+  }
+  /* Small <= 768px */
+    
+  @media screen and (max-width: 768px) {
+    .main-cards {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 0;
+    }
+  
+    .charts {
+      grid-template-columns: 1fr;
+      margin-top: 30px;
+    }
+  }
+  
+  /* Extra Small <= 576px */
+  
+  @media screen and (max-width: 576px) {
+    .hedaer-left {
+      display: none;
+    }
+  }
+  
+
+  /* UserProfile.css */
+
+.wrapper3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-control3{
+  margin-bottom: 10px;
+}
+
+.shadow-lg3 {
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px #000;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.h13 {
+  font-size: 24px;
+  text-align: center;
+}
+
+.btn3 {
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px 0;
+  border: none;
+  background: #007BFF;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn3:hover {
+  background: #0056b3;
+}

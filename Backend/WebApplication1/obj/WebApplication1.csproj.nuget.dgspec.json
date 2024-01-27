@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/surathchathuranga/Desktop/Final EAD BackEnd/Backend/WebApplication1/WebApplication1/WebApplication1.csproj": {}
+  },
+  "projects": {
+    "/Users/surathchathuranga/Desktop/Final EAD BackEnd/Backend/WebApplication1/WebApplication1/WebApplication1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/surathchathuranga/Desktop/Final EAD BackEnd/Backend/WebApplication1/WebApplication1/WebApplication1.csproj",
+        "projectName": "WebApplication1",
+        "projectPath": "/Users/surathchathuranga/Desktop/Final EAD BackEnd/Backend/WebApplication1/WebApplication1/WebApplication1.csproj",
+        "packagesPath": "/Users/surathchathuranga/.nuget/packages/",
+        "outputPath": "/Users/surathchathuranga/Desktop/Final EAD BackEnd/Backend/WebApplication1/WebApplication1/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/surathchathuranga/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/sdk/7.0.309/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "BCrypt.Net-Next": {
+              "target": "Package",
+              "version": "[4.0.3, )"
+            },
+            "Microsoft.AspNet.WebApi.Cors": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.23, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.309/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

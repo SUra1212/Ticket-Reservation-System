@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="FinalEAD" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\SLIIT\\Year\ 04\\Semester\ 2\\EAD\\Assignment\\FinalIntegrated\\Final\ EAD\\Backend\\WebApplication1\\WebApplication1\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

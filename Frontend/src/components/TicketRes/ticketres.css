@@ -1,0 +1,76 @@
+.btn-edit,
+.btn-delete {
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+/* Styles for the search result container */
+.search-results {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  /* Style for each individual result item */
+  .result-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* Style for the result item headings */
+  .result-heading {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for class information */
+  .class-info {
+    font-weight: bold;
+    color: #007bff; /* Blue color for class information */
+  }
+  
+  /* Style for date information */
+  .date-info {
+    color: #555; /* Dark gray color for date information */
+  }
+
+.result-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .result-item {
+    flex: 1; /* Distribute items evenly in two columns */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    min-width: 45%; /* Adjust as needed */
+  }
+
+  .style{
+    text-align: left;
+  }
+  
+  /* In your CSS file */
+.custom-table {
+  height: 120px;
+  border-collapse: collapse; /* This property collapses the borders into a single border line */
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid; /* Add a 1px solid border to table cells (th and td) */
+  padding: 8px; /* Add padding to cells for spacing */
+}
+
+.custom-table th {
+  font-weight: bold; /* Make the header cells bold */
+  text-align: center; /* Center-align header text */
+}
